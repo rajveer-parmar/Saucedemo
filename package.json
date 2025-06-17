@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
-    "report": "allure generate ./allure-results --clean && allure open ./allure-report",
-    "test:allure": "playwright test && npm run report"
+  "test": "playwright test",
+  "clean:reports": "rm -rf allure-results allure-report || rmdir /s /q allure-results allure-report",
+  "report": "allure generate ./allure-results --clean && allure open ./allure-report",
+  "test:allure": "npm run clean:reports && playwright test && npm run report"
   },
   "keywords": [],
   "author": "",

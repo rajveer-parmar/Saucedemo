@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "","1094","Verify failed login with invalid credentials","","Tue Jun 17 15:44:02 IST 2025","passed","Tue Jun 17 15:44:03 IST 2025","","e2e\example.spec.js","",""
-"","1095","Verify login page UI elements are visible","","Tue Jun 17 15:44:01 IST 2025","passed","Tue Jun 17 15:44:02 IST 2025","","e2e\example.spec.js","",""
 "","1287","Verify successful login with valid credentials","","Tue Jun 17 15:44:03 IST 2025","passed","Tue Jun 17 15:44:04 IST 2025","","e2e\example.spec.js","",""
+"","1095","Verify login page UI elements are visible","","Tue Jun 17 15:44:01 IST 2025","passed","Tue Jun 17 15:44:02 IST 2025","","e2e\example.spec.js","",""

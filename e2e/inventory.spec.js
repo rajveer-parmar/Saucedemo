@@ -13,7 +13,7 @@ test('Verify inventory page contents after login', async ({ page }) => {
     await expect(inventoryPage.productTitle()).toHaveText('Products');
 
     const itemCount = await inventoryPage.getItemCount();
-    expect(itemCount).toBeGreaterThan(0);
+    expect(itemCount).toBe(6);
 
     await expect(inventoryPage.sortDropdown()).toBeVisible();
     await expect(inventoryPage.cartIcon()).toBeVisible();
